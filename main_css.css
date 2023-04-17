@@ -1,0 +1,101 @@
+@keyframes sample {
+    from {
+      left: 0px;
+      color: black;
+      /*background-color: black;*/
+    }
+    to {
+      left: 1200px;
+      color: chartreuse;
+      /*background-color: lightseagreen;*/
+    }
+  }
+
+
+.hd
+{
+    text-align: left;
+    font-size: 44px;
+   /* background-color: brown;*/
+}
+.hd{
+    color: burlywood;
+    position: relative;
+    /*background-color: black;*/
+    margin-right: auto;
+    animation-name: sample;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.main
+{
+    display: flex;
+    flex-direction: row;
+}
+.left 
+{
+    margin:10px 15px;
+    border: 10px solid red;
+    padding:20px 20px ;
+    
+}
+.right
+{
+    margin: 10px 15px;
+    border: 6px solid red;
+    padding:20px 20px ; 
+}
+a
+{
+    text-decoration: none;
+}
+.lc
+{
+    font-size: 24px;
+    border: 15px solid green;
+    padding:10px 10px;
+    text-align: center;
+
+}
+.rc
+{
+    border:5px solid blue;
+    padding:10px 20px;
+    margin:10px 10px;
+    background-color: lightslategray;
+}
+
+#r1-res1{
+    background-color: orange;
+    align-content: center;
+   
+    border-radius: 3px;
+    font-size: larger;
+}
+#r2-res1{
+    background-color: orange;
+    align-content: right;
+    font-size: xx-large;border-radius: 3px;
+    
+}
+#r3-res1{
+    background-color: orange;
+    align-content: center;
+    font-size: larger;
+    border-radius: 3px;
+    
+}
+#r4-res1{
+    background-color: orange;
+    align-content: center;
+    font-size: larger;border-radius: 3px;
+    
+}
+#r5-res1{
+    background-color: lightsalmon;
+    align-content: center;
+    font-size: larger;border-radius: 3px;
+}
+
+
